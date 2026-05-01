@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andreas Paoli Monju</title>
+    <meta
+      name="description"
+      content="Portfolio étudiant en informatique présentant études, stages, projets, compétences et contact."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas class="tech-background" id="techBackground" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <a class="brand" href="#accueil" aria-label="Retour à l'accueil">
+        <span>Andréas Paoli Monju</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="#etudes">Études</a>
+        <a href="#stages">Stages</a>
+        <a href="#projets">Projets</a>
+        <a href="#competences">Compétences</a>
+        <a class="nav-contact" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro-section scroll-panel" id="accueil">
+        <div class="intro-content">
+          <p class="eyebrow">Étudiant en informatique</p>
+          <h1>Portfolio de mes études, stages et projets numériques.</h1>
+          <p class="intro-text">
+            Bienvenue sur mon espace personnel. Je présente ici mon parcours en informatique,
+            les compétences que je développe, mes expériences de stage et les projets que je
+            construis pour progresser.
+          </p>
+          <div class="intro-actions" aria-label="Actions principales">
+            <a class="button button-primary" href="#projets">Voir mes projets</a>
+            <a class="button button-secondary" href="#contact">Me contacter</a>
+          </div>
+        </div>
+
+        <aside class="profile-panel" aria-label="Résumé rapide">
+          <img src="assets/study-workspace.svg" alt="Espace de travail informatique illustré" />
+          <div class="profile-details">
+            <p class="profile-label">Disponible pour</p>
+            <p>Stage, alternance, projets web et assistance informatique.</p>
+          </div>
+        </aside>
+
+        <section class="quick-stats" aria-label="Résumé du parcours">
+          <article>
+            <strong>2026</strong>
+            <span>Année de formation</span>
+          </article>
+          <article>
+            <strong>6+</strong>
+            <span>Projets réalisés</span>
+          </article>
+          <article>
+            <strong>3</strong>
+            <span>Domaines étudiés</span>
+          </article>
+        </section>
+      </section>
+
+      <section class="section-block scroll-panel" id="etudes">
+        <div class="section-heading">
+          <p class="eyebrow">Parcours</p>
+          <h2>Mes études</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-date">2026 - Aujourd'hui</span>
+            <div>
+              <h3>BTS SIO SISR / Formation informatique</h3>
+              <p>
+                <a class="link-footer" href="https://stlouis26.eu/" target="_blank">Lycée Saint Louis</a> | Crest 26400
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">2023 - 2026</span>
+            <div>
+              <h3>BAC PRO CIEL / Formation informatique</h3>
+              <p>
+                <a class="link-footer" href="https://stlouis26.eu/" target="_blank">Lycée Saint Louis</a> | Crest 26400
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block section-alt scroll-panel" id="stages">
+        <div class="section-heading">
+          <p class="eyebrow">Expérience</p>
+          <h2>Mes stages</h2>
+        </div>
+
+        <div class="experience-grid">
+          <article class="experience-card">
+            <div class="card-topline">
+              <span>Stage</span>
+              <time datetime="2025">2025</time>
+            </div>
+            <h3>Lafarge Ciments Le Teil</h3>
+            <p>
+              Service informatique (sauvegarde et virtualisation de poste 
+              informatique)
+            </p>
+            <ul>
+              <li>Observation du fonctionnement d’une équipe technique</li>
+              <li>Participation à des tâches concrètes</li>
+              <li>Rédaction d’un bilan de stage</li>
+            </ul>
+          </article>
+
+          <article class="experience-card">
+            <div class="card-topline">
+              <span>Stage</span>
+              <time datetime="2026">2026</time>
+            </div>
+            <h3>Lycée Marie Rivier Bourg-Saint-Andéol</h3>
+            <p>
+              Service informatique (mise en place de poste informatique et 
+              maintenance réseau)
+            </p>
+            <ul>
+              <li>Découvrir des outils professionnels</li>
+              <li>Travailler sur un besoin réel</li>
+              <li>Gagner en autonomie</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block scroll-panel" id="projets">
+        <div class="section-heading">
+          <p class="eyebrow">Réalisations</p>
+          <h2>Mes projets</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <span class="project-tag">Web</span>
+            <h3>Site portfolio personnel</h3>
+            <p>
+              Création d’un site responsive pour présenter mon parcours, mes stages et mes
+              compétences.
+            </p>
+            <div class="tech-list">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>IA</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <span class="project-tag">Serveur</span>
+            <h3><a href="https://web-lycraft.rizyox.fr/" target="_blank">Lycraft</a></h3>
+            <p>
+              Serveur de jeu Minecraft
+            </p>
+            <div class="tech-list">
+              <span>Linux</span>
+              <span>Java</span>
+              <span>Administration</span>
+              <span>IA</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <span class="project-tag">Base de données</span>
+            <h3>Projet SQL</h3>
+            <p>
+              Modélisation d’une base de données simple avec tables, relations, requêtes et
+              documentation.
+            </p>
+            <div class="tech-list">
+              <span>SQL</span>
+              <span>Merise</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block section-alt scroll-panel" id="competences">
+        <div class="section-heading">
+          <p class="eyebrow">Savoir-faire</p>
+          <h2>Compétences</h2>
+        </div>
+
+        <div class="skills-layout">
+          <article>
+            <h3>Développement</h3>
+            <p>HTML, CSS, JavaScript, Arduino, IA, structure de projet et Git.</p>
+          </article>
+          <article>
+            <h3>Systèmes & réseaux</h3>
+            <p>Installation, configuration, Windows & Linux, adressage IP, Machine virtuelle, Serveur.</p>
+          </article>
+          <article>
+            <h3>Méthode</h3>
+            <p>Recherche de solutions, documentation, travail en équipe et présentation orale.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section scroll-panel" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Échangeons sur un stage ou un projet.</h2>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:andreas.paoli-monju@proton.me">andreas.paoli-monju@proton.me</a>
+          <a href="https://www.linkedin.com/in/andreas-paoli-monju-486578397/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/AndreasFT" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Andréas Paoli Monju | <a class="link-footer" href="https://openai.com/fr-FR/codex/" target="_blank">Codex</a>. Tous droits reserves.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
